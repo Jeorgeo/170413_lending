@@ -480,19 +480,37 @@ h2 {
   font-weight: bold;
 }
 
-.discount-meat-wholesale {
-  margin-top: 2em;
+.main-wholesale {
   text-align: center;
 }
 
-.discount-meat-wholesale span {
-  font-size: 2.5em;
+.main-wholesale-photo,
+.main-wholesale-text {
+  display: inline-block;
+  width: 181px;
+  height: 300px;
+  vertical-align: top;
+  margin: 0 2em 2em 2em;
+  border: 1px solid #fb8b00;
+  box-sizing: border-box;
+}
+
+.main-wholesale-text {
+  width: 280px;
+  padding: 1em;
+  font-size: 1.2em;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.main-wholesale-1 {
+  font-size: 1.8em;
+  text-transform: uppercase;
   font-weight: bold;
 }
 
-.discount-meat-wholesale p {
-  margin: 0;
-  font-size: 1.5em;
+.main-wholesale-2 {
+  font-size: 1.4em;
+  text-transform: uppercase;
 }
 
 .main-footer {
